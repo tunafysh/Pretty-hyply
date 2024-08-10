@@ -1,0 +1,15 @@
+[package]
+name = "hex-rgb"
+version = "0.1.1"
+authors = ["shriramb"]
+edition = "2018"
+description = "A Rust CLI Program to convert hexadecimal color-code to RGB"
+repository = "https://github.com/Shriram-Balaji/cli-hex-rgb"
+license = "MIT"
+exclude = [
+    "media/*",
+]
+[dependencies]
+copypasta = "0.7.1"
+owo-colors = "1.1.3"
+structopt = "0.3.20"
